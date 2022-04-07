@@ -397,63 +397,75 @@ body {
 .footer__icon-wrapper__img:nth-child(3) {
   margin-right: 85px;
 }
-                                       /*Headers Responsibilities*/
+                                       /*Max Width 1280px*/
 @media screen and (max-width:1280px) {
   .header__nav {
     justify-content: space-around;
   }
-}
-
-@media screen and (max-width:770px) {
-  .header__nav {
-    justify-content: space-evenly;
+  .hero-section__heading {
+    width: 412px;
+    font-size: 48px;
+    line-height: 48px;
   }
-}
-
-@media screen and (max-width: 320px) {
- .header__nav {
-   flex-direction: column;
-  }
-}
-                                        /*Hero Section Responsibilities*/
-@media screen and (max-width: 1280px) {
   .hero-section {
     width: 885px;
     margin-left: 200px;
   }
+  .hero-section__paragraph {
+    width: 398px;
+  }
+  .second-section {
+    width: 885px;
+    margin-left: 200px;
+    padding-top: 20px;
+  }
+  .second-section__list {
+    margin-left: 45px;
+  }
 }
-
-@media screen and (max-width: 770px) {
+                                      /*Max Width 770px*/
+@media screen and (max-width:770px) {
+  .header__nav {
+    justify-content: space-evenly;
+  }
   .hero-section {
     margin-left: 260px;
     width: 760px;
   }
+  .hero-section__heading {
+    width: 412px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .second-section {
+    width: 689px;
+    margin-left: 290px;
+  }
+  .second-section__list {
+    flex-direction: column;
+    padding-top: 75px;
+  }
+  .second-section__list-item {
+    display: flex;
+    align-items: center;
+  }
+  .second-section__list-item__slogan {
+    width: 282px;
+    text-align: start;
+  }
+  .text-wrapper {
+    padding-bottom: 100px;
+  }
 }
-
+                                       /*Max Width 320px*/
 @media screen and (max-width: 320px) {
+ .header__nav {
+   flex-direction: column;
+  }
   .hero-section {
     width: 327px;
     margin-left: 470px;
   }
-}
-                                        /*into Section "Heading"*/
-@media screen and (max-width: 1280px) {
-  .hero-section__heading {
-    width: 412px;
-    font-size: 48px;
-    line-height: 48px;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .hero-section__heading {
-    width: 412px;
-    font-size: 48px;
-    line-height: 48px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .hero-section__heading {
     padding: 100px 24px 10px 24px;
     width: 327px;
@@ -461,15 +473,6 @@ body {
     line-height: 40px;
     text-align: center;
   }
-}
-                                        /*Into Section "Paragraph"*/
-@media screen and (max-width: 1280px) {
-  .hero-section__paragraph {
-    width: 398px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .hero-section__paragraph {
     margin: 0 24px 39px 24px;
     width: 279px;
@@ -477,94 +480,28 @@ body {
     line-height: 25px;
     text-align: center;
   }
-}
-                                        /*Into Section "Link"*/
-@media screen and (max-width: 320px) {
   .hero-section__link {
     margin-left: 55px;
     margin-bottom: 99px;
   }
-}
-                                        /*Second Section Responsibility*/
-@media screen and (max-width: 1280px) {
- .second-section {
-   width: 885px;
-   margin-left: 200px;
-   padding-top: 20px;
-  }
-}
-
-@media screen and (max-width: 770px) {
   .second-section {
-    width: 689px;
-    margin-left: 290px;
+    width: 327px;
+    margin: 140px 0 0 470px;
   }
-}
-
-@media screen and (max-width: 770px) {
-  .second-section__list {
-    flex-direction: column;
-    padding-top: 75px;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .second-section__list-item {
-    display: flex;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .text-wrapper {
-    padding-bottom: 100px;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .second-section__list-item__slogan {
-    width: 282px;
-    text-align: start;
-  }
-}
-
-@media screen and (max-width: 320px) {
- .second-section {
-   width: 327px;
-   margin: 140px 0 0 470px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
- .second-section__list {
-   margin-left: 45px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .second-section__list-item {
     display: inline-block;
     align-items: center;
   }
-}
-
-@media screen and (max-width: 320px) {
   .second-section__list-item__slogan {
     text-align: center;
     margin-top: -50px;
     margin-bottom: 24px;
   }
-}
-
-@media screen and (max-width: 320px) {
   .second-section__list-item__paragraph {
     text-align: center;
     width: 282px;
     padding-bottom: 48px;
   }
-}
-
-@media screen and (max-width: 320px) {
   .second-section__list-item__img {
     margin-top: -35px;
   }
