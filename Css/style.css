@@ -515,7 +515,7 @@ body {
 }
 
 @media screen and (max-width: 770px) {
-  .list-item__text-wrapper {
+  .text-wrapper {
     padding-bottom: 100px;
   }
 }
