@@ -423,7 +423,7 @@ body {
     margin-left: 45px;
   }
 }
-                                      /*Max Width 770px*/
+                                       /*Max Width 770px*/
 @media screen and (max-width:770px) {
   .header__nav {
     justify-content: space-evenly;
